@@ -1,0 +1,34 @@
+optimization::
+
+Optimization in Python refers to improving the efficiency and performance of code, often by reducing runtime, memory usage, or resource consumption. This can be achieved through various techniques, such as using efficient data structures (e.g., lists, dictionaries), avoiding redundant calculations, leveraging built-in functions and libraries like NumPy, or applying algorithmic improvements (e.g., dynamic programming). Profiling tools like Profile or time it help identify bottlenecks. Additionally, Python supports optimization libraries such as SciPy for mathematical optimization tasks, and using compiled extensions (e.g., python) can further enhance performance in computationally heavy code.
+
+
+2. Different types of optimization.
+Ans:  1. Algorithmic Optimization.
+          2  . Code Optimization.
+          3. Memory Optimization.
+          4. Compiler-Level Optimization.
+         5. Parallelization and Concurrency.
+          6. Numerical Optimization.
+          7. Profiling and Benchmarking.
+           8. Caching and Memorization
+
+
+Q: Minimize the function in python :
+
+
+from SciPy. Optimize import minimize
+
+# Define the multivariable function
+def objective(vars):
+    x, y = vars
+    return x**2 + y**2 + 3*x + 4*y + 5
+
+# Initial guess
+initial guess = [0, 0]
+
+# Minimize the function
+result = minimize(objective, initial guess)
+print("Minimum found at (x, y):", result, x)
+print("Minimum value of the function:", result. Fun)
+
